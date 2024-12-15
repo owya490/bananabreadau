@@ -73,7 +73,7 @@ export default function Home() {
         <div className="relative flex justify-center h-full items-center z-50">
           <div>
             <Link
-              href={"www.bananabread.au"}
+              href={"https://www.bananabread.au"}
               className="text-white text-4xl sm:text-5xl font-Poppins"
             >
               bananabread.au
