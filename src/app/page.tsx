@@ -91,7 +91,7 @@ export default function Home() {
       </div>
       <div
         id="shop"
-        className="sm:h-screen flex justify-center items-center w-screen py-16 sm:px-16"
+        className="flex justify-center items-center w-screen py-16 sm:px-16"
       >
         <div className="w-full">
           <div className=" text-center">
@@ -165,11 +165,42 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="w-screen py-16 sm:px-16 font-Poppins">
+        <h2 className="text-3xl mb-2">Pickup/ Delivery</h2>
+        <p>
+          We offer pickup and local delivery services. We will reach out and
+          contact you via phone call or sms to organise what is best for you.
+        </p>
+        <p>
+          Pickup is free of charge. Delivery is dependent on distance and turn
+          around time. We are situated in Carlingford 2118 NSW, and offer
+          delivery around the area.
+        </p>
+        <p>
+          Please don't hesitate to reach out to us if you have any questions via{" "}
+          <span className="underline">
+            <Link href={"tel:0410776128"}>0410 776 128</Link>
+          </span>
+          .
+        </p>
+      </div>
       <div className="bg-black text-white font-Poppins px-16 py-16">
         <p className="font-semibold text-xl">bananabread.au</p>
         <p>an initiative by owen and cat.</p>
-        <p className="mt-4">0410 776 128</p>
+        <div className="mt-4">
+          <Link href={"tel:0410776128"}>0410 776 128</Link>
+        </div>
         <p className="mt-4">© Copyright (2024)</p>
+        <p className="mt-1 text-xs font-light">
+          Built by{" "}
+          <Link
+            className="hover:cursor-pointer hover:underline"
+            href={"https://www.compassdigital.app"}
+          >
+            CDG
+          </Link>
+          .
+        </p>
       </div>
     </div>
   );
