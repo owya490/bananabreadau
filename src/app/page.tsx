@@ -177,7 +177,7 @@ export default function Home() {
           delivery around the area.
         </p>
         <p>
-          Please don't hesitate to reach out to us if you have any questions via{" "}
+          Please don&apos;t hesitate to reach out to us if you have any questions via{" "}
           <span className="underline">
             <Link href={"tel:0410776128"}>0410 776 128</Link>
           </span>
