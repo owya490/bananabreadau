@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useState } from "react";
 import WALNUTBANANABREAD from "./../../public/Banana-and-Walnut-Cake5.jpg";
 import HERO from "./../../public/bananabreadhero.png";
@@ -41,8 +41,6 @@ const product = [
 ];
 
 export default function Home() {
-  const router = useRouter();
-
   type size = "slice" | "loaf";
 
   const [sizeBanana, setSizeBanana] = useState<size>("slice");
@@ -74,19 +72,19 @@ export default function Home() {
         </div>
         <div className="relative flex justify-center h-full items-center z-50">
           <div>
-            <a
+            <Link
               href={"www.bananabread.au"}
               className="text-white text-4xl sm:text-5xl font-Poppins"
             >
               bananabread.au
-            </a>
+            </Link>
             <div className="flex justify-center">
-              <a
+              <Link
                 href="/#shop"
                 className="rounded-sm text-2xl font-Poppins py-1.5 px-2.5 bg-white mt-4"
               >
                 shop now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
