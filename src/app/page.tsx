@@ -165,7 +165,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-screen py-16 sm:px-16 font-Poppins">
+      <div className="w-screen pb-16 sm:py-16 px-2 sm:px-16 font-Poppins">
         <h2 className="text-3xl mb-2">Pickup/ Delivery</h2>
         <p>
           We offer pickup and local delivery services. We will reach out and
@@ -177,14 +177,15 @@ export default function Home() {
           delivery around the area.
         </p>
         <p>
-          Please don&apos;t hesitate to reach out to us if you have any questions via{" "}
+          Please don&apos;t hesitate to reach out to us if you have any
+          questions via{" "}
           <span className="underline">
             <Link href={"tel:0410776128"}>0410 776 128</Link>
           </span>
           .
         </p>
       </div>
-      <div className="bg-black text-white font-Poppins px-16 py-16">
+      <div className="bg-black text-white font-Poppins px-2 sm:px-16 py-16">
         <p className="font-semibold text-xl">bananabread.au</p>
         <p>an initiative by owen and cat.</p>
         <div className="mt-4">
